@@ -2847,7 +2847,11 @@ textarea.form-control-lg {
 #about {
   background-color: #c2b6b6;
   background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%);
-
+}
+#aboutus{
+  font-size: 20px;
+  background-color: #c2b6b6;
+  background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%);
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;

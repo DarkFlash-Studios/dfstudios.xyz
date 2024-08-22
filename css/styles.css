@@ -377,7 +377,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -438,14 +438,6 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -2845,13 +2837,13 @@ textarea.form-control-lg {
   background-color: black;
 }
 #about {
-  background-color: #c2b6b6;
-  background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%);
+  background: rgb(87,101,116);
+  background: linear-gradient(180deg, rgba(87,101,116,1) 0%, rgba(194,182,182,1) 100%);
 }
 #aboutus{
   font-size: 20px;
-  background-color: #c2b6b6;
-  background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%);
+  background: rgb(87,101,116);
+  background: linear-gradient(180deg, rgba(87,101,116,1) 0%, rgba(194,182,182,1) 100%);
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;

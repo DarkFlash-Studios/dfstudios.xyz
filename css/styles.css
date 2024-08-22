@@ -2842,7 +2842,7 @@ textarea.form-control-lg {
 }
 #aboutus{
   font-size: 20px;
-  background: rgb(87,101,116);
+  background-color: red;
   background: linear-gradient(180deg, rgba(87,101,116,1) 0%, rgba(194,182,182,1) 100%);
 }
 .btn-check:focus + .btn, .btn:focus {
